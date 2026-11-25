@@ -1,4 +1,4 @@
-### all code here is Mike Cohen's
+### Mike Cohen's Sierpinski Triangle
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -16,7 +16,7 @@ for i in range (1, N):
     sy[i] = sy[i - 1]/2
     if k == 2:
         sy[i] += 2
-
+# draw on plt
 plt.plot(sx, sy, 'k.', markersize=1)
 plt.title('Sierpinski Triangle')
 plt.axis('off')
